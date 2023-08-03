@@ -12,7 +12,7 @@ class Main {
         Library library=new Library("Osmonov","chui",books);
         System.out.println(library.addABookToTheLibrary(book4));
         System.out.println(Arrays.toString(library.removeBookFromLibrary(book3)));
-        System.out.println(Arrays.toString(new Book[]{library.updateBookByName("Jamilia", 20)}));
+        System.out.println({library.updateBookByName("Jamilia", 20));
         System.out.println(Arrays.toString(library.getAllBookByAuthor("Aitmatov")));
 
     }
